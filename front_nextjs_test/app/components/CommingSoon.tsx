@@ -19,26 +19,24 @@ import Image from "next/image";
 
 
 
-const CommingSoon: FC = (props) => {
+const CommingSoon: FC = (props: any) => {
 
  
     return (
         <>
             <div className="lg:flex mx-auto md:px-[10rem]">
                 <div className="md:flex-1 px-8 md:py-[4rem]">
-                    <Card  className="w-auto">
-                        <CardHeader floated={false} className="h-90">
-                            <Chip color="lightBlue"
+                    <Card  className="w-auto" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
+                        <CardHeader floated={false} className="h-90"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
+                            <Chip 
                                 className="right-[-14rem] bottom-[-2rem] bg-gradient-to-r from-purple-600 via-indigo-500 to-indigo-800 text-transparent bg-clip-text" value="Comming soon" />
                             <Typography
-                                className={`${props.MonumentExtended.className} text-3xl md:w-full md:pt-[1rem]`}
-                            >
+                                className={`${props.MonumentExtended.className} text-3xl md:w-full md:pt-[1rem]`} placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}                            >
                                 TOKEN
                             </Typography>
 
                             <Typography
-                                className={`${props.satoshiBold.className} text-xl md:w-full md:pb-[1rem] bg-gradient-to-r from-purple-600 via-indigo-500 to-indigo-800 text-transparent bg-clip-text`}
-                            >
+                                className={`${props.satoshiBold.className} text-xl md:w-full md:pb-[1rem] bg-gradient-to-r from-purple-600 via-indigo-500 to-indigo-800 text-transparent bg-clip-text`}  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}                            >
                                 The Gateway token to the world of AI
                             </Typography>
                             <Image
@@ -48,27 +46,25 @@ const CommingSoon: FC = (props) => {
                                 height={550}
                             />
                         </CardHeader>
-                        <CardBody className="text-start">
-                            <p variant="paragraph" color="blue-gray" className={`${props.satoshiRegular.className} m-4`}>
+                        <CardBody className="text-start" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
+                            <p color="blue-gray" className={`${props.satoshiRegular.className} m-4`}>
                                 Set to debut in the latter half of 2024, the CREON token serves as the pioneering link between cutting-edge AI initiatives and blockchain technology. This innovative token provides NFT and token holders with unparalleled access to our Launchpad, AI tools, and exclusive pre-launch investment prospects.
                             </p>
                         </CardBody>
                     </Card>
                 </div>
                 <div className="md:flex-1 px-8 md:py-[4rem]">
-                    <Card className="w-auto">
-                        <CardHeader floated={false} className="h-90">
-                            <Chip color="lightBlue"
+                    <Card className="w-auto"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
+                        <CardHeader floated={false} className="h-90" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
+                            <Chip 
                                 className="right-[-14rem] bottom-[-2rem] bg-gradient-to-r from-purple-600 via-indigo-500 to-indigo-800 text-transparent bg-clip-text" value="Comming soon" />
                             <Typography
 
-                                className={`${props.MonumentExtended.className} text-3xl md:w-full md:pt-[1rem]`}
-                            >
+                                className={`${props.MonumentExtended.className} text-3xl md:w-full md:pt-[1rem]`} placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}                            >
                                 REVENUE
                             </Typography>
                             <Typography
-                                className={`${props.satoshiBold.className} text-xl md:w-full md:pb-[1rem] bg-gradient-to-r from-purple-600 via-indigo-500 to-indigo-800 text-transparent bg-clip-text`}
-                            >
+                                className={`${props.satoshiBold.className} text-xl md:w-full md:pb-[1rem] bg-gradient-to-r from-purple-600 via-indigo-500 to-indigo-800 text-transparent bg-clip-text`} placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}                            >
                                 Driving income and growth through decentralization
                             </Typography>
                             <Image
@@ -78,20 +74,19 @@ const CommingSoon: FC = (props) => {
                                 height={550}
                             />
                         </CardHeader>
-                        <CardBody className="text-start">
-                            <p variant="paragraph" color="blue-gray" className={`${props.satoshiRegular.className} m-4`}>
+                        <CardBody className="text-start"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
+                            <p  color="blue-gray" className={`${props.satoshiRegular.className} m-4`}>
                                 CREON NFT and token holders are integral participants in the profit-sharing from our launched AI-based enterprises. We support the development of AI tools, ensuring a steady revenue stream, all while allowing early investors to enjoy the benefits of their support.
                             </p>
                         </CardBody>
-                        <CardFooter className="flex justify-center gap-7 pt-2">
+                        <CardFooter className="flex justify-center gap-7 pt-2"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
                             <Tooltip content="Like">
                                 <Typography
                                     as="a"
                                     href="#facebook"
                                     variant="lead"
                                     color="blue"
-                                    textGradient
-                                >
+                                    textGradient  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}                                >
                                     <i className="fab fa-facebook" />
                                 </Typography>
                             </Tooltip>
@@ -101,8 +96,7 @@ const CommingSoon: FC = (props) => {
                                     href="#twitter"
                                     variant="lead"
                                     color="light-blue"
-                                    textGradient
-                                >
+                                    textGradient placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}                                >
                                     <i className="fab fa-twitter" />
                                 </Typography>
                             </Tooltip>
@@ -112,8 +106,7 @@ const CommingSoon: FC = (props) => {
                                     href="#instagram"
                                     variant="lead"
                                     color="purple"
-                                    textGradient
-                                >
+                                    textGradient  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}                                >
                                     <i className="fab fa-instagram" />
                                 </Typography>
                             </Tooltip>
@@ -121,18 +114,16 @@ const CommingSoon: FC = (props) => {
                     </Card>
                 </div>
                 <div className="md:flex-1 px-8 md:py-[4rem]">
-                    <Card className="w-auto">
-                        <CardHeader floated={false} className="h-90 ">
-                            <Chip color="lightBlue"
+                    <Card className="w-auto" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
+                        <CardHeader floated={false} className="h-90 "  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
+                            <Chip 
                                 className="right-[-14rem] bottom-[-2rem] bg-gradient-to-r from-purple-600 via-indigo-500 to-indigo-800 text-transparent bg-clip-text" value="Comming soon" />
                             <Typography
-                                className={`${props.MonumentExtended.className} text-3xl md:w-full md:pt-[1rem]`}
-                            >
+                                className={`${props.MonumentExtended.className} text-3xl md:w-full md:pt-[1rem]`} placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}                            >
                                 LAUNCHPAD
                             </Typography>
                             <Typography
-                                className={`${props.satoshiBold.className} text-xl md:w-full md:pb-[3rem] bg-gradient-to-r from-purple-600 via-indigo-500 to-indigo-800 text-transparent bg-clip-text`}
-                            >
+                                className={`${props.satoshiBold.className} text-xl md:w-full md:pb-[3rem] bg-gradient-to-r from-purple-600 via-indigo-500 to-indigo-800 text-transparent bg-clip-text`}  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}                            >
                                 Driving the future of AI Innovation
                             </Typography>
                             <Image
@@ -142,12 +133,12 @@ const CommingSoon: FC = (props) => {
                                 height={550}
                             />
                         </CardHeader>
-                        <CardBody className="text-start">
-                            <p variant="paragraph" color="blue-gray" className={`${props.satoshiRegular.className} m-4`}>
+                        <CardBody className="text-start"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
+                            <p color="blue-gray" className={`${props.satoshiRegular.className} m-4`}>
                                 The Creon AI Launchpad, an essential component of our initiative, represents a groundbreaking opportunity in the realm of AI and blockchain. It provides the first known platform for acquiring allocations in tokenized AI projects, offering our community of NFT and CREON token holders early access to innovative and promising AI endeavors.
                             </p>
                         </CardBody>
-                        <CardFooter className="flex justify-center gap-7 pt-2">
+                        <CardFooter className="flex justify-center gap-7 pt-2" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
                             <Tooltip content="Like">
                                 <Typography
                                     as="a"
@@ -155,7 +146,7 @@ const CommingSoon: FC = (props) => {
                                     variant="lead"
                                     color="blue"
                                     textGradient
-                                >
+                                     placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}                                >
                                     <i className="fab fa-facebook" />
                                 </Typography>
                             </Tooltip>
@@ -165,8 +156,8 @@ const CommingSoon: FC = (props) => {
                                     href="#twitter"
                                     variant="lead"
                                     color="light-blue"
-                                    textGradient
-                                >
+                                    textGradient 
+                                    placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}                                >
                                     <i className="fab fa-twitter" />
                                 </Typography>
                             </Tooltip>
@@ -177,7 +168,7 @@ const CommingSoon: FC = (props) => {
                                     variant="lead"
                                     color="purple"
                                     textGradient
-                                >
+                                    placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}                                >
                                     <i className="fab fa-instagram" />
                                 </Typography>
                             </Tooltip>

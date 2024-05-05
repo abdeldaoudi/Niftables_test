@@ -10,19 +10,18 @@ const Footer: FC = () => {
                 <div className="lg:mt-12 lg:flex w-full flex-col items-center justify-center py-4 md:flex-row md:justify-between">
                     <Typography
                         variant="small"
-                        className="mb-4 text-center font-normal text-blue-gray-900 md:mb-0"
-                    >
+                        className="mb-4 text-center font-normal text-blue-gray-900 md:mb-0" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}                    >
                         <a href=""> © Creon 2024</a>.All rights reserved.
                     </Typography>
                     <div className="flex lg:pr-[30rem] text-blue-gray-900 sm:justify-start">
-                        <Typography as="a" href="#" className="opacity-80 transition-opacity rounded-3xl hover:opacity-100 hover:bg-blue-500 px-0.5" >
+                        <Typography as="a" href="#" className="opacity-80 transition-opacity rounded-3xl hover:opacity-100 hover:bg-blue-500 px-0.5"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined} >
                             <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <circle cx="17" cy="17" r="16" stroke="white" stroke-width="2" />
                                 <path d="M22.1396 10.9192L10.3269 15.9965C9.85152 16.2329 9.69074 16.7064 10.212 16.9634L13.2425 18.0368L20.5697 12.9895C20.9698 12.6726 21.3794 12.7571 21.027 13.1057L14.7338 19.4567L14.5361 22.1444C14.7192 22.5594 15.0545 22.5613 15.2683 22.3551L17.0094 20.5188L19.9913 23.0076C20.6839 23.4646 21.0608 23.1697 21.2098 22.3321L23.1656 12.0095C23.3687 10.9785 23.0224 10.5242 22.1396 10.9192Z" fill="white" />
                             </svg>
 
                         </Typography>
-                        <Typography as="a" href="#" className="opacity-80 transition-opacity rounded-3xl hover:opacity-100 hover:bg-blue-500  px-0.5">
+                        <Typography as="a" href="#" className="opacity-80 transition-opacity rounded-3xl hover:opacity-100 hover:bg-blue-500  px-0.5" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
                             <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g clip-path="url(#clip0_573_302)">
                                     <circle cx="17" cy="17" r="16" stroke="white" stroke-width="2" />
@@ -35,7 +34,7 @@ const Footer: FC = () => {
                                 </defs>
                             </svg>
                         </Typography>
-                        <Typography as="a" href="#" className="opacity-80 transition-opacity rounded-3xl hover:opacity-100 hover:bg-blue-500 px-0.5">
+                        <Typography as="a" href="#" className="opacity-80 transition-opacity rounded-3xl hover:opacity-100 hover:bg-blue-500 px-0.5"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
                             <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g clip-path="url(#clip0_573_303)">
                                     <circle cx="17" cy="17" r="16" stroke="white" stroke-width="2" className="hover:hidden" />
@@ -52,8 +51,7 @@ const Footer: FC = () => {
                     <div className="lg:flex gap-4 text-blue-gray-900 sm:justify-center">
                         <Typography
                             variant="small"
-                            className="mb-4 text-center font-normal text-blue-gray-900 md:mb-0"
-                        >
+                            className="mb-4 text-center font-normal text-blue-gray-900 md:mb-0"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}                        >
                             Powered By<a href="" className="opacity-80 transition-opacity hover:opacity-100 hover:text-blue-500 px-0.5"> NIFTABLES</a>
                         </Typography>
                     </div>

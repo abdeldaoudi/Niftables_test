@@ -12,7 +12,7 @@ import Image from "next/image";
 import { Chip } from "@material-tailwind/react";
 
 
-export default function Screen1(props) {
+export default function Screen1(props: any) {
   const [openNav, setOpenNav] = useState<boolean>(false);
 
   useEffect(() => {
@@ -31,8 +31,7 @@ export default function Screen1(props) {
         as="li"
         variant="small"
         color="blue-gray"
-        className={`${props.satoshiRegular.className} p-1 mt-6 font-normal`}
-      >
+        className={`${props.satoshiRegular.className} p-1 mt-6 font-normal`} placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}      >
         <a href="#" className="flex items-center">
           Creon Pass
         </a>
@@ -41,9 +40,8 @@ export default function Screen1(props) {
         as="li"
         variant="small"
         color="blue-gray"
-        className={`${props.satoshiRegular.className} p-1 font-normal`}
-      >
-        <Chip color="lightBlue"
+        className={`${props.satoshiRegular.className} p-1 font-normal`} placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}      >
+        <Chip 
           className="right-[-2rem] bottom-[-0.5rem] bg-gradient-to-r from-purple-600 via-indigo-500 to-indigo-800 text-transparent bg-clip-text" value="soon" />
         <a href="#" className="flex items-center">
           Token
@@ -53,9 +51,8 @@ export default function Screen1(props) {
         as="li"
         variant="small"
         color="blue-gray"
-        className={`${props.satoshiRegular.className} p-1 font-normal`}
-      >
-        <Chip color="lightBlue"
+        className={`${props.satoshiRegular.className} p-1 font-normal`} placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}      >
+        <Chip
           className="right-[-4rem] bottom-[-0.5rem] bg-gradient-to-r from-purple-600 via-indigo-500 to-indigo-800 text-transparent bg-clip-text" value="soon" />
         <a href="#" className="flex items-center">
           AI Revenue
@@ -65,9 +62,8 @@ export default function Screen1(props) {
         as="li"
         variant="small"
         color="blue-gray"
-        className={`${props.satoshiRegular.className} p-1 font-normal`}
-      >
-        <Chip color="lightBlue"
+        className={`${props.satoshiRegular.className} p-1 font-normal`}  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}      >
+        <Chip 
           className="right-[-5rem] bottom-[-0.5rem] font-medium bg-gradient-to-r from-purple-600 via-indigo-500 to-indigo-800 text-transparent bg-clip-text" value="soon" />
         <a href="#" className="flex items-center">
           AI Launchpad
@@ -86,7 +82,7 @@ export default function Screen1(props) {
         layout="fill"
         objectFit="cover"
       />
-      <Navbar className="sticky top-0 z-10 h-max max-w-full rounded-none px-4 py-0.5 lg:px-8 lg:py-1">
+      <Navbar className="sticky top-0 z-10 h-max max-w-full rounded-none px-4 py-0.5 lg:px-8 lg:py-1" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
         <div className="flex items-center justify-between text-blue-gray-900">
           <div
             className="mr-4 cursor-pointer"
@@ -105,8 +101,7 @@ export default function Screen1(props) {
               <Button
                 variant="outlined"
                 size="sm"
-                className="relative overflow-hidden text-white-500 rounded-md  px-4 py-1 mt-7 hover:border-blue-500 hover:bg-blue-500 hover:text-white"
-              >
+                className="relative overflow-hidden text-white-500 rounded-md  px-4 py-1 mt-7 hover:border-blue-500 hover:bg-blue-500 hover:text-white" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}              >
                 <span className={`${props.satoshiRegular.className}`}>
                   Connect
                 </span>
@@ -117,8 +112,7 @@ export default function Screen1(props) {
               variant="text"
               className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
               ripple={false}
-              onClick={() => setOpenNav(!openNav)}
-            >
+              onClick={() => setOpenNav(!openNav)}  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}            >
               {openNav ? (
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -157,13 +151,12 @@ export default function Screen1(props) {
         </MobileNav>
       </Navbar>
       <div className="mx-auto max-h-screen-md py-1 md:px-[10rem]">
-        <Card className="mb-0.5 w-full">
+        <Card className="mb-0.5 w-full"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
           <div
             className="md:h-[36rem] w-full object-cover object-center md:pt-[20rem] pt-[10rem]"
           >
             <Typography
-              className={`${props.MonumentExtended.className} big-text lg:w-5/6`}
-            >
+              className={`${props.MonumentExtended.className} big-text lg:w-5/6`}  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}            >
               THE WORLD&apos;S FIRST
               PLATFORM FOR TOKENIZING AI BLOCKCHAIN PROJECTS
             </Typography>
