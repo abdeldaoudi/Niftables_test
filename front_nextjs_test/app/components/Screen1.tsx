@@ -8,6 +8,7 @@ import {
   IconButton,
   Card,
 } from "@material-tailwind/react";
+import Image from "next/image";
 import { Chip } from "@material-tailwind/react";
 
 
@@ -78,22 +79,25 @@ export default function Screen1(props) {
   return (
     <div className="relative bg-cover bg-center" >
       <div className="absolute inset-0 w-full h-full inset-0 bg-gradient-to-b from-purple-600 via-indigo-600 to-black opacity-90"></div>
-      <img
+      <Image
         src="/bg_screen1.png"
         alt="Background"
         className="absolute inset-0 w-full h-full object-cover opacity-60"
+        
+        layout="fill"
+        objectFit="cover"
       />
-      {/* <img
-        src="/bg_linear_1.png"
-        alt="Overlay"
-        className="absolute inset-0 w-full h-full object-cover opacity-40"
-      /> */}
       <Navbar className="sticky top-0 z-10 h-max max-w-full rounded-none px-4 py-0.5 lg:px-8 lg:py-1">
         <div className="flex items-center justify-between text-blue-gray-900">
           <div
             className="mr-4 cursor-pointer"
           >
-            <img src='/Logo.png' className="py-4" />
+            {/* <img src='/Logo.png' className="py-4" /> */}
+            <Image
+              src='/Logo.png' className="py-4"
+              width={120}
+              height={120}
+            />
           </div>
           <div className="flex items-center gap-4">
             <div className="mr-4 hidden lg:block">{navList}</div>

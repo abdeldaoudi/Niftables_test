@@ -13,6 +13,7 @@ import {
     AccordionHeader,
     AccordionBody,
 } from "@material-tailwind/react";
+import Image from "next/image";
 
 function Icon({ id, open }) {
     return (
@@ -46,10 +47,11 @@ const Ourmission: FC = (props) => {
                     >
                         OUR VISION IS TO SUPPORT THE INNOVATION OF AI BLOCKCHAIN PROJECTS <span className="bg-gradient-to-r from-purple-600 via-indigo-500 to-indigo-800 text-transparent bg-clip-text">while prioritizing communities and democratizing profits</span>
                     </Typography>
-                    <img
+                     <Image
                         src="/mission.png"
-                        alt="Background"
                         className="flex inset-0 md:ml-[10rem] w-auto h-3/4 object-cover "
+                        width={550}
+                        height={550}
                     />
                 </div>
                 <div className="md:flex-4 p-2 md:py-[8rem]">

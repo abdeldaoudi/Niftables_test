@@ -8,6 +8,7 @@ import {
   IconButton,
   Card,
 } from "@material-tailwind/react";
+import Image from "next/image";
 
 
 const CreonPass: FC = (props) => {
@@ -58,10 +59,15 @@ const CreonPass: FC = (props) => {
               </Button>
       </div>
       <div className="md:flex-1 p-8 lg:py-[12rem]">
-      <img
+      {/* <img
         src="/CreonPass.png"
         alt="Background"
         className="flex inset-0 w-full h-full object-cover"
+      /> */}
+      <Image
+         src="/CreonPass.png"
+         width={550}
+         height={550}
       />
       </div>
     </div>

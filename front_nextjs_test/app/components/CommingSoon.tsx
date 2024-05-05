@@ -15,6 +15,7 @@ import {
     Tooltip,
 } from "@material-tailwind/react";
 import { Chip } from "@material-tailwind/react";
+import Image from "next/image";
 
 
 
@@ -42,8 +43,12 @@ const CommingSoon: FC = (props) => {
                             >
                                 The Gateway token to the world of AI
                             </Typography>
-
-                            <img src="/token_1.png" alt="token1" className="transform hover:scale-110 transition duration-300 ease-in-out" />
+                            <Image
+                                src="/token_1.png" alt="token1"
+                                className="transform hover:scale-110 transition duration-300 ease-in-out"
+                                width={550}
+                                height={550}
+                            />
                         </CardHeader>
                         <CardBody className="text-start">
                             <p variant="paragraph" color="blue-gray" className={`${props.satoshiRegular.className} m-4`}>
@@ -58,18 +63,22 @@ const CommingSoon: FC = (props) => {
                             <Chip color="lightBlue"
                                 className="right-[-14rem] bottom-[-2rem] bg-gradient-to-r from-purple-600 via-indigo-500 to-indigo-800 text-transparent bg-clip-text" value="Comming soon" />
                             <Typography
-                               
+
                                 className={`${props.MonumentExtended.className} text-3xl md:w-full md:pt-[1rem]`}
                             >
                                 REVENUE
                             </Typography>
                             <Typography
-                               className={`${props.satoshiBold.className} text-xl md:w-full md:pb-[1rem] bg-gradient-to-r from-purple-600 via-indigo-500 to-indigo-800 text-transparent bg-clip-text`}
+                                className={`${props.satoshiBold.className} text-xl md:w-full md:pb-[1rem] bg-gradient-to-r from-purple-600 via-indigo-500 to-indigo-800 text-transparent bg-clip-text`}
                             >
                                 Driving income and growth through decentralization
                             </Typography>
-
-                            <img src="/token_2.png" alt="token_2" className="transform hover:scale-110 transition duration-300 ease-in-out" />
+                            <Image
+                                src="/token_2.png" alt="token_2"
+                                className="transform hover:scale-110 transition duration-300 ease-in-out"
+                                width={550}
+                                height={550}
+                            />
                         </CardHeader>
                         <CardBody className="text-start">
                             <p variant="paragraph" color="blue-gray" className={`${props.satoshiRegular.className} m-4`}>
@@ -124,11 +133,16 @@ const CommingSoon: FC = (props) => {
                                 LAUNCHPAD
                             </Typography>
                             <Typography
-                                 className={`${props.satoshiBold.className} text-xl md:w-full md:pb-[3rem] bg-gradient-to-r from-purple-600 via-indigo-500 to-indigo-800 text-transparent bg-clip-text`}
+                                className={`${props.satoshiBold.className} text-xl md:w-full md:pb-[3rem] bg-gradient-to-r from-purple-600 via-indigo-500 to-indigo-800 text-transparent bg-clip-text`}
                             >
                                 Driving the future of AI Innovation
                             </Typography>
-                            <img src="/token_3.png" alt="token-3" className="transform hover:scale-110 transition duration-300 ease-in-out" />
+                            <Image
+                                src="/token_3.png" alt="token-3" 
+                                className="transform hover:scale-110 transition duration-300 ease-in-out"
+                                width={550}
+                                height={550}
+                            />
                         </CardHeader>
                         <CardBody className="text-start">
                             <p variant="paragraph" color="blue-gray" className={`${props.satoshiRegular.className} m-4`}>
