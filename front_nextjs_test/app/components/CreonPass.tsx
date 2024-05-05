@@ -59,7 +59,7 @@ const CreonPass: FC = (props: any) => {
         className="flex inset-0 w-full h-full object-cover"
       /> */}
       <Image
-         src="/CreonPass.png"
+         src="/creon_pass.png"
          alt="crownpass"
          className="flex inset-0 w-full h-full object-cover"
          width={550}
