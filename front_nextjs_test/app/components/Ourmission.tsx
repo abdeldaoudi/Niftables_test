@@ -49,6 +49,7 @@ const Ourmission: FC = (props) => {
                     </Typography>
                      <Image
                         src="/mission.png"
+                        alt='mission'
                         className="flex inset-0 md:ml-[10rem] w-auto h-3/4 object-cover "
                         width={550}
                         height={550}

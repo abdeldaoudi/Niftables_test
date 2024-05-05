@@ -66,6 +66,7 @@ const CreonPass: FC = (props) => {
       /> */}
       <Image
          src="/CreonPass.png"
+         alt="crownpass"
          width={550}
          height={550}
       />

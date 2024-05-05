@@ -38,6 +38,7 @@ const Profiting: FC = (props) => {
                     <Image
                         src="/profiting_image.png"
                         className="inset-0 w-full h-auto object-cover"
+                        alt="profiting"
                         width={550}
                         height={550}
                     />

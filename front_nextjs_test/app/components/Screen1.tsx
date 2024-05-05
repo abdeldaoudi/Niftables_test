@@ -82,8 +82,7 @@ export default function Screen1(props) {
       <Image
         src="/bg_screen1.png"
         alt="Background"
-        className="absolute inset-0 w-full h-full object-cover opacity-60"
-        
+        className="absolute inset-0 w-full h-full object-cover opacity-60"      
         layout="fill"
         objectFit="cover"
       />
@@ -95,6 +94,7 @@ export default function Screen1(props) {
             {/* <img src='/Logo.png' className="py-4" /> */}
             <Image
               src='/Logo.png' className="py-4"
+              alt="logo"
               width={120}
               height={120}
             />
