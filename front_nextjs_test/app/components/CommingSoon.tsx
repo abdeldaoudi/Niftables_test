@@ -21,13 +21,12 @@ import Image from "next/image";
 
 const CommingSoon: FC = (props) => {
 
-    const [open, setOpen] = React.useState(0);
-    
+ 
     return (
         <>
             <div className="lg:flex mx-auto md:px-[10rem]">
                 <div className="md:flex-1 px-8 md:py-[4rem]">
-                    <Card className="w-auto">
+                    <Card  className="w-auto">
                         <CardHeader floated={false} className="h-90">
                             <Chip color="lightBlue"
                                 className="right-[-14rem] bottom-[-2rem] bg-gradient-to-r from-purple-600 via-indigo-500 to-indigo-800 text-transparent bg-clip-text" value="Comming soon" />
