@@ -164,7 +164,7 @@ export default function Screen1(props) {
             <Typography
               className={`${props.MonumentExtended.className} big-text lg:w-5/6`}
             >
-              THE WORLD'S FIRST
+              THE WORLD&apos;S FIRST
               PLATFORM FOR TOKENIZING AI BLOCKCHAIN PROJECTS
             </Typography>
             <Chip variant="ghost" className={`${props.satoshiRegular.className} text-3xl w-full bg-gradient-to-r from-purple-600 via-indigo-600 to-black text-transparent bg-clip-text `} value="Hold the Creon Pass NFT and earn passive income from AI Tools">
