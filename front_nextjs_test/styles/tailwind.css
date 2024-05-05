@@ -1,0 +1,38 @@
+/* styles/tailwind.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@keyframes disappear {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+}
+
+@keyframes appear {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-disappear {
+  animation: disappear 0.5s forwards;
+}
+
+.animate-appear {
+  animation: appear 0.5s forwards;
+}
+
+.big-text {
+  font-size: 3rem; /* Adjust the font size as needed */
+}
