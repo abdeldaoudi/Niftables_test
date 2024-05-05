@@ -22,8 +22,7 @@ import Image from "next/image";
 const CommingSoon: FC = (props) => {
 
     const [open, setOpen] = React.useState(0);
-
-    const handleOpen = (value) => setOpen(open === value ? 0 : value);
+    
     return (
         <>
             <div className="lg:flex mx-auto md:px-[10rem]">
