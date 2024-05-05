@@ -3,13 +3,13 @@ import '../styles/tailwind.css';
 import '../styles/fonts/style.css'
 import React, { useState, useEffect } from "react";
 
-import Screen1 from "./Components/Screen1";
-import CreonPass from "./Components/CreonPass";
-import Profiting from "./Components/Profiting";
-import Ourmission from "./Components/Ourmission";
-import CommingSoon from "./Components/CommingSoon";
-import Frame144 from "./Components/Frame144";
-import Footer from "./Components/Footer";
+import Screen1 from "./components/Screen1";
+import CreonPass from "./components/CreonPass";
+import Profiting from "./components/Profiting";
+import Ourmission from "./components/Ourmission";
+import CommingSoon from "./components/CommingSoon";
+import Frame144 from "./components/Frame144";
+import Footer from "./components/Footer";
 import localFont from 'next/font/local'
 
 const satoshiRegular = localFont({
