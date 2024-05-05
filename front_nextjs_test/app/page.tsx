@@ -29,8 +29,7 @@ const MonumentExtended = localFont({
   display: 'swap',
 })
 
-
-const fonts = {
+const fonts : any = {
   satoshiRegular: satoshiRegular,
   satoshiMeduim: satoshiMeduim,
   satoshiBold: satoshiBold,
